@@ -33,6 +33,7 @@
         $_SESSION['postre']=serialize($postre);
         
     ?>
+    <center>
     <h1>Menu</h1>
     <section>
         <h2>Primero</h2>
@@ -89,6 +90,7 @@
         </ul>
     </section>
     <a href="generaPDF.php" target="_blank"><button type="button" class="btn btn-primary">Generar pdf</button></a>
+    </center>
         <?php
             }else{
         ?>
